@@ -1,0 +1,39 @@
+*********************************Read the file chal0************************************
+
+
+
+
+kaveri@Kaveri:~$ ssh chal0@65.2.142.23
+chal0@65.2.142.23's password:
+Welcome to Ubuntu 22.04.1 LTS (GNU/Linux 5.15.0-1030-aws x86_64)
+
+ * Documentation:  https://help.ubuntu.com
+ * Management:     https://landscape.canonical.com
+ * Support:        https://ubuntu.com/advantage
+
+  System information as of Fri Nov 24 14:38:29 UTC 2023
+
+  System load:  0.0                Processes:             121
+  Usage of /:   34.5% of 13.39GB   Users logged in:       2
+  Memory usage: 56%                IPv4 address for eth0: 172.31.2.227
+  Swap usage:   0%
+
+
+88 updates can be applied immediately.
+To see these additional updates run: apt list --upgradable
+
+
+The list of available updates is more than a week old.
+To check for new updates run: sudo apt update
+Failed to connect to https://changelogs.ubuntu.com/meta-release-lts. Check your Internet connection or proxy settings
+
+
+*** System restart required ***
+Last login: Thu Nov 23 18:14:00 2023 from 44.214.109.189
+$ ls
+chal0.txt  sampleNetworkLog.pcap
+$ cat chal0
+cat: chal0: No such file or directory
+$ cat chal0.txt
+rjM3Xyksb0ra
+$

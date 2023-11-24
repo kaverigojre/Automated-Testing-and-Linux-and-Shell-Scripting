@@ -1,0 +1,6 @@
+**********************Read the content of the file -*************************
+
+kaveri@Kaveri:~$ ssh chal4@65.2.142.23 'cat ~/f'
+chal4@65.2.142.23's password:
+AhgHaRinxMu4
+kaveri@Kaveri:~$

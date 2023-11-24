@@ -1,0 +1,42 @@
+********************************The file dump.txt contain a lot of lines which are repeated. You need to find out that line which is unique. This line will be your flag. In case if you have multiple lines which has occured just once, then try your luck!***********************
+
+kaveri@Kaveri:~$ ssh chal2@65.2.142.23
+chal2@65.2.142.23's password:
+Welcome to Ubuntu 22.04.1 LTS (GNU/Linux 5.15.0-1030-aws x86_64)
+
+ * Documentation:  https://help.ubuntu.com
+ * Management:     https://landscape.canonical.com
+ * Support:        https://ubuntu.com/advantage
+
+  System information as of Fri Nov 24 14:57:40 UTC 2023
+
+  System load:  0.02734375         Processes:             120
+  Usage of /:   34.5% of 13.39GB   Users logged in:       3
+  Memory usage: 57%                IPv4 address for eth0: 172.31.2.227
+  Swap usage:   0%
+
+
+88 updates can be applied immediately.
+To see these additional updates run: apt list --upgradable
+
+
+The list of available updates is more than a week old.
+To check for new updates run: sudo apt update
+Failed to connect to https://changelogs.ubuntu.com/meta-release-lts. Check your Internet connection or proxy settings
+
+
+*** System restart required ***
+Last login: Fri Nov 24 14:43:42 2023 from 152.58.31.144
+$ sort dump.txt | uniq -u > unique_flag.txt
+$ cat unique_flag.txt
+3f6CpXUIc33i
+4RozfAtXAsjg
+5BGVNS6JU7Ce
+JdqD95Tk84uI
+KGU65QyVg0if
+YW8mKZYXh4UT
+fN0h3drnJUZh
+jHrA4lCOgspJ
+m6mOzGyZ7qMf
+mfOrsfHF0ZlB
+$
